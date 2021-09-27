@@ -40,7 +40,7 @@ function App() {
       <Title content="Some Simple Title" />
       <div className="row">
         {all_pokemon.map((pokemon) => (
-          <div className="col-md-6 col-lg-4">
+          <div className="col-md-6 col-lg-4" key={pokemon.name}>
             <Pokemon
               name={pokemon.name}
               weight={pokemon.weight}

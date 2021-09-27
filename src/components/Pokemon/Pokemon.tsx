@@ -33,7 +33,11 @@ export default function Pokemon({
       </div>
       <ul className="list-group list-group-flush">
         {abilities.map((ability) => {
-          return <li className="list-group-item">{ability}</li>;
+          return (
+            <li key={ability} className="list-group-item">
+              {ability}
+            </li>
+          );
         })}
       </ul>
     </div>
