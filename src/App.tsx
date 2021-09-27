@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Dit is een test.
+          Welcome to codaisseur!
         </a>
       </header>
     </div>
