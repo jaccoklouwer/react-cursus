@@ -28,7 +28,7 @@ export default function Pokemon({
           <br />
           Terrifying: {terrifying ? "Very" : "nah, lovable"}
           <br />
-          {abilities.length} abilities
+          {abilities.length} {abilities.length === 1 ? "ability" : "abilities"}
         </p>
       </div>
       <ul className="list-group list-group-flush">
